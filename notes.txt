@@ -1,0 +1,23 @@
+ 1. WHAT IS JAVASCRIPT
+ 
+ 	JavaScript is a high-level, object-oriented, multi-paradigm programming language!
+ 	
+ 	WHAT IS:
+ 	
+ 		Programming language - Instruct computer to do things;
+ 		
+ 		High-level - We don't have to worry about complex stuff like memory management;
+ 		
+ 		Object-oriented - Based on objects, for storing most kind of data;
+ 		
+ 		Multi-Paradigm - We can use different styles of programming (imperative/declarative);
+ 		
+ 		
+ 		
+ 2. THE ROLE OF JS IN WEB DEVELOPMENT
+ 
+ 	The 3 cores of webdevelopment are: HTML, CSS, JS;
+ 		
+ 		HTML - content (NOUNS); 
+ 		CSS - presentation (ADJECTIVES); 
+ 		JS - programming language: building web applications (VERBS);
