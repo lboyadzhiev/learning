@@ -1,4 +1,4 @@
- 1. WHAT IS JAVASCRIPT
+1. WHAT IS JAVASCRIPT
  
  	JavaScript is a high-level, object-oriented, multi-paradigm programming language!
  	
@@ -14,10 +14,40 @@
  		
  		
  		
- 2. THE ROLE OF JS IN WEB DEVELOPMENT
+2. THE ROLE OF JS IN WEB DEVELOPMENT
  
  	The 3 cores of webdevelopment are: HTML, CSS, JS;
  		
  		HTML - content (NOUNS); 
  		CSS - presentation (ADJECTIVES); 
  		JS - programming language: building web applications (VERBS);
+
+
+3. LINKING A JS FILE
+
+    Usually to the end of the 'body' we write:
+
+        " <script src="nameOfTheFile.js"></script> "
+
+
+4. VALUES AND VARIABLES 
+
+    VALUE -  pies of data (most fundamental unit of information that we have in programming).
+
+	VARIABLE - box in wich we store a VALUE;
+
+    We can store VALUES into a VARIABLES and reuse them over and over again;
+
+    write VARIABLES with camelCase - convention in JS world.
+
+    Rules for declaring a variable in js:
+
+        Can't start with number;
+            it give us a 'Uncaught SyntaxErrir' - that's mean that we did a mistake by writing our code;
+		
+		Variable names can only contain = letters, numbers, underscore "_" and dolar sign "$";
+
+		Another error might occure when we try to name a variable using a reserved JS word "new" for example;
+
+		"name" is the only one reserved word that we can use for naming a variable, but it is possible to have some unexpected beahviour (don't name a variable just "name");
+
