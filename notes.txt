@@ -51,3 +51,50 @@
 
 		"name" is the only one reserved word that we can use for naming a variable, but it is possible to have some unexpected beahviour (don't name a variable just "name");
 
+
+5. DATA TYPES
+
+	In JS every VALUE has a type. Value can be either an object or primitive. A vaue is only a primitive when it is not an object. 
+
+	The 7 primitive data types:
+
+		1. Number;
+
+		2. String;
+
+		3. Boolean;
+
+		4. Undefined - Value taken by a variable that is not yet defined('emtpy value');
+
+		5. Null - Also means 'emtpy value';
+
+		6. Symbol - Value that is unique and cannot be changes [Not useful for now];
+
+		7. BigInt - Larger integers than the Number type can hold;
+
+	
+	JS has dynamic typing: We do not have to manually define the data type of the value stored in  variable. Instead, data types are determined automatically.
+
+	"typeof value" - shows the type of the value;
+
+	typeof null - return it is object(it is bug in JS)
+
+
+
+6. LET, CONST, VAR
+
+	variable declared with const is imutable, and that also means that we can't declare a empty variable;
+	the best bractice is to use 'const' for declaring a variables. It is good to have as les as posible variable mutations in code.
+
+	let is block scope.
+	var is function scope.
+
+
+
+7. BASIC OPERATORS
+
+	Operators allow us to transform values and combine multiple values.
+
+	Arithmetick operators.
+	Assignment operators - '=', '+='...
+	Comparison operators - '<', '>', '==', '===', '<=', '>='
