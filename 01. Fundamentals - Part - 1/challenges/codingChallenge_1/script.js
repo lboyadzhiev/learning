@@ -25,5 +25,3 @@ function solve() {
 
     console.log(isTrue);
 }
-
-solve();
